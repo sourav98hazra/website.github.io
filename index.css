@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+	@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+	.mfont{
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+	
+	body{
+		font: 400 15px Lato, sans-serif;
+		letter-spacing: 1.4px;
+		word-spacing: 1.3px;
+		width: 100%;
+		height: 100%;
+	}
+	.navbar-default{
+		background-color:#132226;
+		border-width:0px;    
+	}
+	nav#navbarid{
+		overflow-x:hidden ; 
+	}
+	.navbar-default .navbar-nav>li>a , .navbar-brand{
+		color: white ;
+		font-family: 'Major Mono Display', monospace;
+	}
+
+	.navbar-default .navbar-nav>li>a:hover{
+		background-color:white !important;
+		color:#132226 !important;
+		transition: 0.6s;
+	}
+	.jumbotron {
+		background-color: #132226;
+		color: white;
+		padding: 65px;
+		margin-bottom: 0;
+	}
+	h1+.text-info {
+		color: wheat !important;
+	}
+	div.container-fluid{
+		color: #040c0e;
+		padding: 95px 40px;
+	}
+	#uses .col-md-8 blockquote,#about .col-md-8 blockquote{
+		font-size:29px;
+	}
+	div#uses{
+		background-color:white;
+	}
+
+	#schema.container-fluid{
+		color: #040c0e;
+		padding: 0px 0px;
+	}
+	.container-fluid .jumbotron {
+		border-radius: 0px;
+	}
+	div#about,div#more{
+		background: #be9063;
+	}
+	div#schema{
+		background-color:#132226;
+	}
+	div#uses{
+		background:#e3dac9
+	}
+	#schema img{
+		filter: hue-rotate(180deg);
+	}
+	.m50{
+		margin-top: 50px;
+	}
+	dd{
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 24px;
+		color:white;
+	}
+	#schema img.img-thumbnail {
+		background: transparent;
+		margin-bottom: 15px;
+	}
+	#schema img.img-thumbnail:hover{
+		background: white;
+		/*box-shadow: 0 0 6px 1px #f5f5f5;*/
+		transition: 0.6s;
+	}
+	.modal-body{
+		text-align: center;
+		/*overflow: auto;*/
+	}
+	.mb-20{
+		margin-bottom: 20px !important;
+	}
